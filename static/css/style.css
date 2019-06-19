@@ -1,0 +1,335 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    background-color: #cfcfcf;
+}
+
+h4{
+    font-weight: 400;
+    font-size: 18px;
+    z-index: 2;
+}
+.home h4{
+    font-weight: 400;
+    font-size: 18px;
+    z-index: 2;
+}
+video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background-color: black;
+    filter: brightness(30%);
+}
+body.home{
+    font-size: 14px;
+}
+
+ul {
+    margin: 0 7px 10px 0;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #171719;
+    z-index: 2;
+}
+
+ul h4{
+    font-size: 18px;
+}
+
+ul li {
+    float: right;
+    z-index: 2;
+}
+
+ul li a {
+    display: block;
+    color: #717171;
+    background-color: #171719;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.4s ease;
+}
+
+ul a:hover {
+    color: #3cd52e;
+    text-decoration: none;     
+}
+
+h4{
+    font-size: 18px;
+}
+
+.navbar{
+    background-color: #171719;
+	color : #717171;
+    margin: 0;
+    box-shadow: 0px 6px 15px black;
+    z-index: 2;
+    position: relative;
+}
+
+.logo{
+	float : left;
+	width : 150px;
+	height : 75px;
+	margin-left : 50px;
+	margin-top : 5px;
+	margin-bottom : 5px;
+}
+
+.search-box-wrapper{
+    position: relative;
+    display: inline;
+    text-align: center;
+    z-index: 2;
+}
+
+.search-box-input{
+    font-size: inherit;
+    border-radius: 5px;
+    padding: 3px 5px;
+    width: 35%;
+    z-index: 2;
+}
+
+.search-box-button{
+    position: relative;
+    font-size: inherit;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.active{
+    border-bottom: solid;
+	color : #3cd52e;
+}
+.active h4{
+    font-weight: 700;
+}
+
+.isi h1{
+    text-align: center;
+    position: relative;
+    line-height: 1.3em;
+    margin-top: 180px;
+    padding: 0 15px 0px;
+    text-shadow: 0px 0px 6px rgba(0,0,0,0.8);
+    color: white;
+    font-weight: 700;
+    font-size: 40pt;
+    margin-bottom: 20px;
+}
+
+.kata h2{
+    text-align: center;
+    position: relative;
+    line-height: 1.3em;
+    text-shadow: 0px 0px 6px rgba(0,0,0,0.8);
+    color: white;
+    font-weight: 300;
+    font-size: 32px;
+
+}
+
+.h4title{
+    margin: 50px 0px 40px 0px;
+	text-align : center;
+	color : #000;
+	font-weight: 700;
+}
+
+#mainevent {
+    margin: 20px;
+    border-style : none;
+    overflow: auto;
+    float : left;
+    padding-top : 10px;
+    padding-left : 18px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+	background-color : #f0eff3;
+	color : #171719;
+}
+
+.maingalleryevent {
+    margin-top: 0px;
+    float : left;
+    width: 40%;
+    height: 40%;
+    size : relative;
+}
+
+.maintextevent {
+    margin-top: 0px;
+    width: 59%;
+    height: 59%;
+    float: right;
+    font-size: auto;
+    text-align: justify;
+}
+
+.headmore {
+    margin-left : 15px;
+    margin-bottom : 15px;
+	color : black;
+	font-weight : 400;
+}
+
+.moregallery {
+    margin: 5px;
+	margin-left : 15px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    display: inline-block;
+	background-color : #f0eff3;
+	color : #171719;
+}
+
+.moregallery img {
+    width: 100%;
+    height: auto;
+}
+
+.moredesc {
+    padding: 15px;
+    text-align: center;
+
+}
+
+.imgcategory{
+	border-radius: 50%;
+	background-image : url(../img/Futsal1.jpg);
+    background-size: cover;
+	border : 5px solid lightgrey;
+	width : 150px;
+	height : 150px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+    transition: border 0.4s ease;
+}
+
+.imgcategory:hover{
+	border : 5px solid #3cd52e;    
+}
+
+.imgcategory a{
+    display: none;
+}
+.h5category{
+	color : #3cd52e;
+	text-align : center;
+	text-decoration : bold;
+}
+
+img.rounded { border-radius: 50%; }
+
+.contact {
+    overflow: auto;
+    float : left;
+    padding-top : 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+	color : black;
+}
+
+.contact h3{
+	color : black;
+}
+
+.socmed img{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 35px;
+    width: 35px;
+    transition-duration: 0.3s;
+}
+
+.socmed img:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.textabout {
+    text-align: justify;
+
+}
+.textabout p {
+	color : black;
+    margin: 0;
+}
+
+.about h3{
+	color : black;
+}
+.dicari{
+    font-size: 28px;
+}
+
+.result {
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.result2 {
+    margin-top: 30px;
+    display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.result-image{
+    float: left;
+    height: 150px;
+}
+.result-image img {
+    border-radius: 25%;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+}
+
+.result-stacked {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+}
+.result-content {
+  padding-top: 15px;
+}
+
+.result-content p {
+  margin: 0;
+  color: inherit;
+}
+
+.result-title {
+    display: block;
+    line-height: 32px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 20pt;
+}
+
+.detailevent{
+    background-image : url(../img/bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -180px;
+}
+
+.juduldetail{
+    margin-left: 15px;
+    padding-top: 500px;
+    color: white;
+    font-weight: 900;
+    font-size: 48px;
+}
